@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import "./scss/App.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { ProductsProvider } from "./context/ProductsContext";
+import { BreadcrumbProvider } from "./context/BreadcrumbContext";
+import Buscador from "./components/Buscador";
+import ItemDetailContainer from "./components/ItemDetailContainer";
+import Items from "./components/Items";
 
 function App() {
+  //Rutas para el Front(Caja de busqueda, vista de items, detalle de producto), Context para datas y vistas principales
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="ban">
+      <main>
+        <ProductsProvider>
+          <BreadcrumbProvider>
+            <BrowserRouter>
+              <Buscador />
+
+              <Switch>
+                <Route exact path="/"></Route>
+
+                <Route exact path="/items">
+                  <Items />
+                </Route>
+
+                <Route exact path="/items/:id">
+                  <ItemDetailContainer />
+                </Route>
+              </Switch>
+            </BrowserRouter>
+          </BreadcrumbProvider>
+        </ProductsProvider>
+      </main>
     </div>
   );
 }
