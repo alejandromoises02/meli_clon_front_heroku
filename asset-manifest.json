@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/meli_clon_front_heroku/static/css/main.48bf6f60.chunk.css",
+    "main.js": "/meli_clon_front_heroku/static/js/main.b249643a.chunk.js",
+    "main.js.map": "/meli_clon_front_heroku/static/js/main.b249643a.chunk.js.map",
+    "runtime-main.js": "/meli_clon_front_heroku/static/js/runtime-main.9acc3ee7.js",
+    "runtime-main.js.map": "/meli_clon_front_heroku/static/js/runtime-main.9acc3ee7.js.map",
+    "static/css/2.150d169a.chunk.css": "/meli_clon_front_heroku/static/css/2.150d169a.chunk.css",
+    "static/js/2.9c8e946c.chunk.js": "/meli_clon_front_heroku/static/js/2.9c8e946c.chunk.js",
+    "static/js/2.9c8e946c.chunk.js.map": "/meli_clon_front_heroku/static/js/2.9c8e946c.chunk.js.map",
+    "static/js/3.877964e7.chunk.js": "/meli_clon_front_heroku/static/js/3.877964e7.chunk.js",
+    "static/js/3.877964e7.chunk.js.map": "/meli_clon_front_heroku/static/js/3.877964e7.chunk.js.map",
+    "index.html": "/meli_clon_front_heroku/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/meli_clon_front_heroku/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.48bf6f60.chunk.css.map": "/meli_clon_front_heroku/static/css/main.48bf6f60.chunk.css.map",
+    "static/js/2.9c8e946c.chunk.js.LICENSE.txt": "/meli_clon_front_heroku/static/js/2.9c8e946c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9acc3ee7.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.9c8e946c.chunk.js",
+    "static/css/main.48bf6f60.chunk.css",
+    "static/js/main.b249643a.chunk.js"
+  ]
+}
